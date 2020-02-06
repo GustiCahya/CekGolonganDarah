@@ -61,7 +61,7 @@ section {
 
 @media (max-width: 760px) {
   .heading {
-    background-color: #000000;
+    background-color: #11121d;
   }
 }
 
@@ -79,7 +79,7 @@ section {
 
 @media (max-width: 760px) {
   .content {
-    background: #21243d;
+    background: #ff7c7c;
     padding: 0;
   }
 }
@@ -112,7 +112,6 @@ section {
 
 @media (max-width: 760px) {
   .inputan .input {
-    background-color: #11121d;
     padding: 3rem 2rem;
   }
 }
@@ -127,7 +126,7 @@ section {
 
 @media (max-width: 760px) {
   .hasil {
-    background-color: #11121d;
+    background-color: #21243d;
     padding: 1rem 0 2rem 0;
   }
 }
@@ -149,7 +148,7 @@ section {
 
 @media (max-width: 760px) {
   .footer {
-    background-color: #000000;
+    background-color: #11121d;
   }
 }
 

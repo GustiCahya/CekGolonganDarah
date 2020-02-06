@@ -56,7 +56,7 @@ section{
         font-size: $fz1;
     }
     @media(max-width:760px){
-        background-color: #000000;
+        background-color: #11121d;
     }
 }
 .content{
@@ -70,7 +70,7 @@ section{
         font-size: $fz1;
     }
     @media(max-width:760px){
-        background: $color-dark;
+        background: $color-primary;
         padding: 0;
     }
 }
@@ -91,7 +91,6 @@ section{
         background-color: $color-dark;
         padding: 3rem 5rem;
         @media(max-width: 760px){
-            background-color: #11121d;
             padding: 3rem 2rem;
         }
     }
@@ -104,7 +103,7 @@ section{
     padding-bottom: 1.5rem;
     margin-top: 4rem;
     @media(max-width:760px){
-        background-color: #11121d;
+        background-color: $color-dark;
         padding: 1rem 0 2rem 0;
     }
 }
@@ -120,7 +119,7 @@ section{
         }
     }
     @media(max-width:760px){
-        background-color: #000000;
+        background-color: #11121d;
     }
 }
 
