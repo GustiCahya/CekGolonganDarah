@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Cek Golongan Darah Online dari Orang Tua</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <section class="heading">
+            <div>
+                <h1>Aplikasi Cek Golongan Darah Online</h1>
+            </div>
+        </section>
+    </header>
+    
+    <main>
+        <section class="content">
+            <div class="inputan">
+                <div class="input inputan-ayah">
+                    <label for="ayah"><h1>Ayah</h1></label>
+                    <input type="text" name="ayah" id="ayah">
+                    <div class="tombol">
+                        <button class="btn btn-ayah">A</button>
+                        <button class="btn btn-ayah">B</button>
+                        <button class="btn btn-ayah">O</button>
+                        <button class="btn btn-ayah">AB</button>
+                    </div>
+                </div>
+                <div class="input inputan-ibu">
+                    <label for="ibu"><h1>Ibu</h1></label>
+                    <input type="text" name="ibu" id="ibu">
+                    <div class="tombol">
+                        <button class="btn btn-ibu">A</button>
+                        <button class="btn btn-ibu">B</button>
+                        <button class="btn btn-ibu">O</button>
+                        <button class="btn btn-ibu">AB</button>
+                    </div>
+                </div>
+            </div>
+
+            <div style="text-align: center;">
+                <button class="btn" id="identifikasi">Identifikasi</button>
+            </div>
+
+            <div class="hasil">
+                <h3>Hasil : </h3>
+                <h4 id="hasil">{{hasil}}</h4>
+            </div>
+        </section>
+    </main>
+    
+    <footer>
+        <section class="footer">
+            <div>
+                <span>&copy; Copyright <a href="https://kodecahya.netlify.com">Gusti Cahya</a></span>
+            </div>
+        </section>
+    </footer>
+
+    <script src="sweetalert2.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
