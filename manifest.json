@@ -1,0 +1,11 @@
+{
+  "background_color": "#FFF",
+  "display": "standalone",
+  "name": "Cek Golongan Darah",
+  "short_name": "Cek Golongan Darah",
+  "version": "io.cordova.hellocordova",
+  "description": "Sebuah aplikasi untuk mengecek golongan darah anda berdasarkan golongan darah orang tua anda.",
+  "author": "Gusti Cahya",
+  "icons": [],
+  "start_url": "index.html"
+}
